@@ -16,71 +16,1387 @@
     },
     {
       "id": "2",
-      "title": "Front-End Engineer (React & Redux)",
+      "title": "Front-End Engineer (Vue.js)",
       "type": "Full-Time",
+      "description": "Join our innovative digital product team in Miami, FL. You will build responsive user interfaces using Vue.js, Tailwind CSS, and modern JavaScript standards while collaborating closely with UX designers.",
       "location": "Miami, FL",
-      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
-      "salary": "$70K - $80K",
+      "salary": "$80K - $90K",
       "company": {
-        "name": "Veneer Solutions",
-        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
-        "contactEmail": "contact@loremipsum.com",
-        "contactPhone": "555-555-5555"
+        "name": "VeneTek Digital",
+        "description": "VeneTek Digital specializes in crafting high-converting web applications and enterprise portals for global startups and established brands.",
+        "contactEmail": "careers@venetekdigital.com",
+        "contactPhone": "555-234-8910"
       }
     },
     {
       "id": "3",
-      "title": "React.js Dev",
+      "title": "Full-Stack Node.js & React Developer",
       "type": "Full-Time",
-      "location": "Brooklyn, NY",
-      "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
-      "salary": "$70K - $80K",
+      "description": "We are looking for a versatile Full-Stack Developer in Austin, TX to design RESTful APIs with Node.js and Express, alongside dynamic front-end dashboards in React.",
+      "location": "Austin, TX",
+      "salary": "$95K - $110K",
       "company": {
-        "name": "Dolor Cloud",
-        "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
-        "contactEmail": "contact@dolorsitamet.com",
-        "contactPhone": "555-555-5555"
+        "name": "AlphaCore Systems",
+        "description": "AlphaCore Systems builds scalable cloud platforms and SaaS solutions that empower modern logistics and supply chain businesses.",
+        "contactEmail": "jobs@alphacoresys.com",
+        "contactPhone": "555-876-1209"
       }
     },
     {
       "id": "4",
-      "title": "React Front-End Developer",
-      "type": "Part-Time",
-      "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
-      "location": "Pheonix, AZ",
-      "salary": "$60K - $70K",
+      "title": "Junior Web Developer",
+      "type": "Full-Time",
+      "description": "Great opportunity for a motivated Junior Web Developer in Denver, CO. You will assist in maintaining corporate websites, writing clean HTML5, CSS3, and vanilla JavaScript.",
+      "location": "Denver, CO",
+      "salary": "$55K - $65K",
       "company": {
-        "name": "Alpha Elite",
-        "description": "Alpha Elite is a dynamic startup specializing in digital marketing and web development. We are committed to fostering a diverse and inclusive workplace where creativity and innovation thrive.",
-        "contactEmail": "contact@adipisicingelit.com",
-        "contactPhone": "555-555-5555"
+        "name": "PeakWeb Studio",
+        "description": "PeakWeb Studio is a boutique creative agency delivering custom web design, branding, and e-commerce solutions for growing businesses.",
+        "contactEmail": "hello@peakwebstudio.com",
+        "contactPhone": "555-392-4411"
       }
     },
     {
       "id": "5",
-      "title": "Full Stack React Developer",
-      "type": "Full-Time",
-      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
-      "location": "Atlanta, GA",
-      "salary": "$90K - $100K",
+      "title": "Backend Python / Django Developer",
+      "type": "Remote",
+      "description": "Seeking an experienced Python Developer to architect secure backend services, optimize PostgreSQL databases, and integrate third-party payment gateways.",
+      "location": "Remote (US)",
+      "salary": "$100K - $120K",
       "company": {
-        "name": "Browning Technologies",
-        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
-        "contactEmail": "contact@consecteturadipisicing.com",
-        "contactPhone": "555-555-5555"
+        "name": "CloudPulse Technologies",
+        "description": "CloudPulse Technologies provides automated infrastructure and fintech APIs designed for high availability and rapid scaling.",
+        "contactEmail": "talent@cloudpulsetech.io",
+        "contactPhone": "555-601-7788"
       }
     },
     {
       "id": "6",
-      "title": "React Native Developer",
-      "type": "Full-Time",
-      "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
-      "location": "Portland, OR",
-      "salary": "$100K - $110K",
+      "title": "UI/UX Designer & Front-End Specialist",
+      "type": "Part-Time",
+      "description": "We need a creative UI/UX Designer with solid CSS and React prototyping skills in Seattle, WA to modernize our flagship customer portal.",
+      "location": "Seattle, WA",
+      "salary": "$60K - $70K",
       "company": {
-        "name": "Port Solutions INC",
-        "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
-        "contactEmail": "contact@ipsumlorem.com",
+        "name": "Emerald Pixel Labs",
+        "description": "Emerald Pixel Labs is a user-centric design and software consultancy dedicated to building accessible and intuitive digital products.",
+        "contactEmail": "hr@emeraldpixel.com",
+        "contactPhone": "555-908-3321"
+      }
+    },
+    {
+      "id": "7",
+      "title": "Angular Enterprise Developer",
+      "type": "Contract",
+      "description": "6-month contract for an Angular specialist in Chicago, IL. Experience with TypeScript, RxJS, and enterprise state management is required.",
+      "location": "Chicago, IL",
+      "salary": "$90K - $105K",
+      "company": {
+        "name": "FinBridge Corp",
+        "description": "FinBridge Corp delivers secure banking software and compliance analytics tools to financial institutions across North America.",
+        "contactEmail": "recruiting@finbridgecorp.com",
+        "contactPhone": "555-443-9900"
+      }
+    },
+    {
+      "id": "8",
+      "title": "React Native Mobile Developer",
+      "type": "Full-Time",
+      "description": "Build cross-platform iOS and Android applications using React Native and TypeScript in New York, NY. Knowledge of native modules and REST APIs is a plus.",
+      "location": "New York, NY",
+      "salary": "$105K - $125K",
+      "company": {
+        "name": "MetroApp Innovations",
+        "description": "MetroApp Innovations creates consumer mobile apps focused on urban mobility, fitness, and daily productivity.",
+        "contactEmail": "careers@metroapp.io",
+        "contactPhone": "555-712-6543"
+      }
+    },
+    {
+      "id": "9",
+      "title": "Database Administrator (PostgreSQL & MySQL)",
+      "type": "Full-Time",
+      "description": "Responsible for database modeling, query optimization, backups, and high-availability clustering for high-traffic web applications in Atlanta, GA.",
+      "location": "Atlanta, GA",
+      "salary": "$95K - $115K",
+      "company": {
+        "name": "DataVault Solutions",
+        "description": "DataVault Solutions offers managed data warehousing, business intelligence, and enterprise database engineering services.",
+        "contactEmail": "jobs@datavaultsol.com",
+        "contactPhone": "555-318-9045"
+      }
+    },
+    {
+      "id": "10",
+      "title": "DevOps & Cloud Engineer (AWS)",
+      "type": "Full-Time",
+      "description": "Manage CI/CD pipelines, Docker containers, and Kubernetes clusters on AWS for our engineering teams in San Francisco, CA.",
+      "location": "San Francisco, CA",
+      "salary": "$120K - $140K",
+      "company": {
+        "name": "StratosScale Inc.",
+        "description": "StratosScale Inc. accelerates software delivery through automated cloud architecture and site reliability engineering.",
+        "contactEmail": "ops-hiring@stratosscale.com",
+        "contactPhone": "555-829-1102"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Java Spring Boot Developer",
+      "type": "Full-Time",
+      "description": "Seeking a backend engineer proficient in Java 17+, Spring Boot, and microservices architecture to join our healthcare tech division in Dallas, TX.",
+      "location": "Dallas, TX",
+      "salary": "$100K - $115K",
+      "company": {
+        "name": "MedSync Health",
+        "description": "MedSync Health develops interoperable electronic health record systems and patient engagement portals.",
+        "contactEmail": "talent@medsynchealth.org",
+        "contactPhone": "555-490-2231"
+      }
+    },
+    {
+      "id": "12",
+      "title": "QA Automation Engineer",
+      "type": "Full-Time",
+      "description": "Design and maintain automated end-to-end test suites using Cypress, Playwright, and Jest for web applications in Phoenix, AZ.",
+      "location": "Phoenix, AZ",
+      "salary": "$80K - $92K",
+      "company": {
+        "name": "QualityFirst Software",
+        "description": "QualityFirst Software ensures zero-defect software releases through automated testing frameworks and continuous QA integration.",
+        "contactEmail": "qa-jobs@qualityfirst.com",
+        "contactPhone": "555-674-8812"
+      }
+    },
+    {
+      "id": "13",
+      "title": "WordPress & PHP Developer",
+      "type": "Part-Time",
+      "description": "Develop custom WordPress themes, plugins, and WooCommerce integrations for media clients in Orlando, FL.",
+      "location": "Orlando, FL",
+      "salary": "$50K - $60K",
+      "company": {
+        "name": "SunCoast Media Group",
+        "description": "SunCoast Media Group manages digital publishing platforms, tourism portals, and content marketing campaigns.",
+        "contactEmail": "web@suncoastmedia.com",
+        "contactPhone": "555-209-3344"
+      }
+    },
+    {
+      "id": "14",
+      "title": "Cybersecurity Analyst",
+      "type": "Full-Time",
+      "description": "Monitor network traffic, perform vulnerability assessments, and enforce OWASP security standards across web applications in Washington, DC.",
+      "location": "Washington, DC",
+      "salary": "$105K - $125K",
+      "company": {
+        "name": "Aegis Cyber Defense",
+        "description": "Aegis Cyber Defense protects enterprise infrastructure and government contractors against emerging digital threats.",
+        "contactEmail": "security@aegiscyber.com",
+        "contactPhone": "555-911-4050"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Next.js & TypeScript Developer",
+      "type": "Remote",
+      "description": "Build server-side rendered e-commerce storefronts using Next.js, TypeScript, and GraphQL for a rapidly growing retail tech company.",
+      "location": "Remote (US)",
+      "salary": "$95K - $115K",
+      "company": {
+        "name": "CartFlow Commerce",
+        "description": "CartFlow Commerce empowers direct-to-consumer brands with ultra-fast headless commerce storefronts.",
+        "contactEmail": "hiring@cartflow.io",
+        "contactPhone": "555-532-7890"
+      }
+    },
+    {
+      "id": "16",
+      "title": "C# .NET Core Software Engineer",
+      "type": "Full-Time",
+      "description": "Develop enterprise web APIs and desktop integrations using C#, .NET 8, and SQL Server in Minneapolis, MN.",
+      "location": "Minneapolis, MN",
+      "salary": "$90K - $105K",
+      "company": {
+        "name": "NorthStar Logistics",
+        "description": "NorthStar Logistics provides fleet management and freight tracking software across the Midwest.",
+        "contactEmail": "careers@northstarlog.com",
+        "contactPhone": "555-781-2390"
+      }
+    },
+    {
+      "id": "17",
+      "title": "Front-End Accessibility Specialist",
+      "type": "Contract",
+      "description": "Audit and remediate web applications to meet WCAG 2.1 AA standards using semantic HTML, ARIA attributes, and clean CSS in Boston, MA.",
+      "location": "Boston, MA",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "InclusiveWeb Partners",
+        "description": "InclusiveWeb Partners helps universities and public sector organizations make their digital platforms accessible to everyone.",
+        "contactEmail": "contact@inclusiveweb.org",
+        "contactPhone": "555-643-1289"
+      }
+    },
+    {
+      "id": "18",
+      "title": "Technical Support & Implementation Engineer",
+      "type": "Full-Time",
+      "description": "Assist B2B clients with REST API integrations, webhook troubleshooting, and custom JavaScript snippets in Salt Lake City, UT.",
+      "location": "Salt Lake City, UT",
+      "salary": "$65K - $75K",
+      "company": {
+        "name": "SyncWave SaaS",
+        "description": "SyncWave SaaS builds customer relationship and automated messaging tools for small and medium businesses.",
+        "contactEmail": "support-jobs@syncwave.com",
+        "contactPhone": "555-345-6712"
+      }
+    },
+    {
+      "id": "19",
+      "title": "Data Visualization Developer (D3.js & React)",
+      "type": "Full-Time",
+      "description": "Create interactive charts, geospatial maps, and real-time analytics dashboards using D3.js, SVG, and React in San Diego, CA.",
+      "location": "San Diego, CA",
+      "salary": "$100K - $115K",
+      "company": {
+        "name": "Oceanic Analytics",
+        "description": "Oceanic Analytics transforms environmental and maritime data into actionable visual intelligence.",
+        "contactEmail": "jobs@oceanicanalytics.com",
+        "contactPhone": "555-890-4512"
+      }
+    },
+    {
+      "id": "20",
+      "title": "Ruby on Rails Full-Stack Developer",
+      "type": "Full-Time",
+      "description": "Maintain and expand a high-volume SaaS platform built on Ruby on Rails, Hotwire, and PostgreSQL in Portland, OR.",
+      "location": "Portland, OR",
+      "salary": "$95K - $110K",
+      "company": {
+        "name": "Cascade Digital Works",
+        "description": "Cascade Digital Works crafts sustainable software products for non-profits and community organizations.",
+        "contactEmail": "team@cascadedigital.io",
+        "contactPhone": "555-412-9876"
+      }
+    },
+    {
+      "id": "21",
+      "title": "Lead Front-End Architect",
+      "type": "Full-Time",
+      "description": "Define front-end architecture, component libraries, and micro-frontend standards across multiple product squads in New York, NY.",
+      "location": "New York, NY",
+      "salary": "$135K - $155K",
+      "company": {
+        "name": "Nexus Global Tech",
+        "description": "Nexus Global Tech is an enterprise software leader powering digital transformation for Fortune 500 retailers.",
+        "contactEmail": "exec-hiring@nexusglobal.com",
+        "contactPhone": "555-999-1010"
+      }
+    },
+    {
+      "id": "22",
+      "title": "Junior React & CSS Developer",
+      "type": "Full-Time",
+      "description": "Entry-level front-end position in Raleigh, NC. Build reusable UI components, consume REST APIs with fetch/async-await, and collaborate in Agile sprints.",
+      "location": "Raleigh, NC",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "BrightPath Software",
+        "description": "BrightPath Software builds educational platforms and interactive learning tools for K-12 schools.",
+        "contactEmail": "careers@brightpathsoft.com",
+        "contactPhone": "555-221-8765"
+      }
+    },
+    {
+      "id": "23",
+      "title": "Go (Golang) Microservices Engineer",
+      "type": "Remote",
+      "description": "Build low-latency backend services and gRPC APIs in Go for a real-time video streaming infrastructure company.",
+      "location": "Remote (US)",
+      "salary": "$120K - $140K",
+      "company": {
+        "name": "StreamForge Media",
+        "description": "StreamForge Media delivers ultra-low-latency live video infrastructure for sports and gaming platforms.",
+        "contactEmail": "jobs@streamforge.tv",
+        "contactPhone": "555-654-3219"
+      }
+    },
+    {
+      "id": "24",
+      "title": "Shopify Plus Front-End Developer",
+      "type": "Contract",
+      "description": "Customize Shopify Plus themes using Liquid, JavaScript ES6+, and CSS Grid for luxury fashion brands in Los Angeles, CA.",
+      "location": "Los Angeles, CA",
+      "salary": "$80K - $95K",
+      "company": {
+        "name": "Studio Pacifica",
+        "description": "Studio Pacifica is a digital commerce agency specializing in high-fashion and lifestyle online stores.",
+        "contactEmail": "talent@studiopacifica.com",
+        "contactPhone": "555-321-7654"
+      }
+    },
+    {
+      "id": "25",
+      "title": "Systems Analyst & SQL Developer",
+      "type": "Full-Time",
+      "description": "Gather business requirements, design relational data models, and write complex SQL stored procedures in Columbus, OH.",
+      "location": "Columbus, OH",
+      "salary": "$75K - $88K",
+      "company": {
+        "name": "Heartland Insurance Tech",
+        "description": "Heartland Insurance Tech modernizes policy administration and claims processing systems.",
+        "contactEmail": "hr@heartlandinsure.com",
+        "contactPhone": "555-876-5432"
+      }
+    },
+    {
+      "id": "26",
+      "title": "Mid-Level React Developer",
+      "type": "Full-Time",
+      "description": "Join our product engineering team in Nashville, TN to build interactive music licensing portals using React, Redux Toolkit, and Tailwind CSS.",
+      "location": "Nashville, TN",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "SoundWave Digital",
+        "description": "SoundWave Digital connects independent artists with global media producers through smart licensing software.",
+        "contactEmail": "jobs@soundwavedigital.com",
+        "contactPhone": "555-432-1987"
+      }
+    },
+    {
+      "id": "27",
+      "title": "Laravel & Vue.js Full-Stack Developer",
+      "type": "Full-Time",
+      "description": "Develop modern web applications using PHP 8, Laravel, and Vue 3 in Tampa, FL. Experience with MySQL optimization is required.",
+      "location": "Tampa, FL",
+      "salary": "$80K - $92K",
+      "company": {
+        "name": "Bayshore Web Solutions",
+        "description": "Bayshore Web Solutions creates custom CRM and booking platforms for the hospitality and travel industry.",
+        "contactEmail": "careers@bayshoreweb.com",
+        "contactPhone": "555-765-4321"
+      }
+    },
+    {
+      "id": "28",
+      "title": "Site Reliability Engineer (SRE)",
+      "type": "Full-Time",
+      "description": "Improve system observability, automate incident response, and manage Terraform infrastructure in Houston, TX.",
+      "location": "Houston, TX",
+      "salary": "$115K - $135K",
+      "company": {
+        "name": "EnergyGrid Systems",
+        "description": "EnergyGrid Systems provides smart grid monitoring and renewable energy analytics software.",
+        "contactEmail": "sre-hiring@energygridsys.com",
+        "contactPhone": "555-234-5678"
+      }
+    },
+    {
+      "id": "29",
+      "title": "Front-End Web Designer (HTML/CSS/JS)",
+      "type": "Part-Time",
+      "description": "Translate Figma mockups into pixel-perfect, responsive landing pages using clean HTML, CSS, and lightweight JavaScript in Charlotte, NC.",
+      "location": "Charlotte, NC",
+      "salary": "$55K - $65K",
+      "company": {
+        "name": "Queen City Creative",
+        "description": "Queen City Creative is a full-service marketing and web design studio serving regional businesses.",
+        "contactEmail": "hello@queencitycreative.com",
+        "contactPhone": "555-890-1234"
+      }
+    },
+    {
+      "id": "30",
+      "title": "Senior GraphQL & Node.js Engineer",
+      "type": "Remote",
+      "description": "Architect federated GraphQL APIs and microservices using Node.js, Apollo Server, and TypeScript.",
+      "location": "Remote (US)",
+      "salary": "$115K - $130K",
+      "company": {
+        "name": "GraphLayer Technologies",
+        "description": "GraphLayer Technologies helps enterprises unify disparate data sources into a single modern API layer.",
+        "contactEmail": "jobs@graphlayer.io",
+        "contactPhone": "555-567-8901"
+      }
+    },
+    {
+      "id": "31",
+      "title": "iOS Swift Developer",
+      "type": "Full-Time",
+      "description": "Build sleek native iOS applications using Swift and SwiftUI in San Jose, CA. Strong understanding of RESTful networking and CoreData required.",
+      "location": "San Jose, CA",
+      "salary": "$115K - $135K",
+      "company": {
+        "name": "SiliconPulse Apps",
+        "description": "SiliconPulse Apps develops productivity and smart-home control applications for Apple ecosystems.",
+        "contactEmail": "careers@siliconpulse.com",
+        "contactPhone": "555-345-1289"
+      }
+    },
+    {
+      "id": "32",
+      "title": "Android Kotlin Developer",
+      "type": "Full-Time",
+      "description": "Develop high-performance Android apps using Kotlin and Jetpack Compose in Pittsburgh, PA.",
+      "location": "Pittsburgh, PA",
+      "salary": "$100K - $115K",
+      "company": {
+        "name": "SteelCity Robotics & Software",
+        "description": "SteelCity Robotics & Software builds mobile control interfaces for autonomous warehouse systems.",
+        "contactEmail": "talent@steelcitysoft.com",
+        "contactPhone": "555-678-9012"
+      }
+    },
+    {
+      "id": "33",
+      "title": "Machine Learning Data Engineer",
+      "type": "Full-Time",
+      "description": "Build ETL pipelines and feature stores using Python, Apache Spark, and SQL in Cambridge, MA.",
+      "location": "Cambridge, MA",
+      "salary": "$125K - $145K",
+      "company": {
+        "name": "BioCompute Labs",
+        "description": "BioCompute Labs accelerates pharmaceutical research using machine learning and cloud data pipelines.",
+        "contactEmail": "jobs@biocomputelabs.ai",
+        "contactPhone": "555-901-2345"
+      }
+    },
+    {
+      "id": "34",
+      "title": "Technical Writer & API Documentarian",
+      "type": "Remote",
+      "description": "Create clear developer guides, OpenAPI/Swagger specifications, and interactive code samples for our REST API platform.",
+      "location": "Remote (US)",
+      "salary": "$75K - $88K",
+      "company": {
+        "name": "DocuDev Systems",
+        "description": "DocuDev Systems builds developer portals and SDK documentation tools for API-first companies.",
+        "contactEmail": "careers@docudev.io",
+        "contactPhone": "555-234-6789"
+      }
+    },
+    {
+      "id": "35",
+      "title": "Full-Stack MERN Developer",
+      "type": "Full-Time",
+      "description": "Develop end-to-end features using MongoDB, Express, React, and Node.js in Orlando, FL.",
+      "location": "Orlando, FL",
+      "salary": "$85K - $98K",
+      "company": {
+        "name": "OrbitStack Solutions",
+        "description": "OrbitStack Solutions delivers custom SaaS MVPs and web platforms for high-growth startups.",
+        "contactEmail": "hiring@orbitstack.com",
+        "contactPhone": "555-456-7890"
+      }
+    },
+    {
+      "id": "36",
+      "title": "SvelteKit Front-End Developer",
+      "type": "Full-Time",
+      "description": "Build ultra-fast web applications using SvelteKit, TypeScript, and CSS variables in Boulder, CO.",
+      "location": "Boulder, CO",
+      "salary": "$90K - $105K",
+      "company": {
+        "name": "Flatiron Web Tech",
+        "description": "Flatiron Web Tech creates lightweight, high-speed web tools for outdoor recreation and mapping.",
+        "contactEmail": "jobs@flatironweb.com",
+        "contactPhone": "555-789-0123"
+      }
+    },
+    {
+      "id": "37",
+      "title": "Enterprise Solutions Architect",
+      "type": "Full-Time",
+      "description": "Lead technical discovery and system integration architecture for enterprise clients in Dallas, TX.",
+      "location": "Dallas, TX",
+      "salary": "$140K - $160K",
+      "company": {
+        "name": "Apex Cloud Partners",
+        "description": "Apex Cloud Partners guides large enterprises through legacy modernization and hybrid cloud adoption.",
+        "contactEmail": "architects@apexcloud.com",
+        "contactPhone": "555-012-3456"
+      }
+    },
+    {
+      "id": "38",
+      "title": "Junior QA & Manual Tester",
+      "type": "Full-Time",
+      "description": "Execute test plans, log reproducible bug reports, and verify UI responsiveness across browsers in Indianapolis, IN.",
+      "location": "Indianapolis, IN",
+      "salary": "$52K - $62K",
+      "company": {
+        "name": "Midwest Digital Assurance",
+        "description": "Midwest Digital Assurance provides dedicated software testing and usability auditing services.",
+        "contactEmail": "hr@midwestqa.com",
+        "contactPhone": "555-345-8901"
+      }
+    },
+    {
+      "id": "39",
+      "title": "Salesforce & Apex Developer",
+      "type": "Full-Time",
+      "description": "Build custom Lightning Web Components (LWC) and Apex triggers for enterprise CRM workflows in Chicago, IL.",
+      "location": "Chicago, IL",
+      "salary": "$105K - $120K",
+      "company": {
+        "name": "CRM Elevate Consulting",
+        "description": "CRM Elevate Consulting implements tailored Salesforce ecosystems for manufacturing and retail firms.",
+        "contactEmail": "careers@crmelevate.com",
+        "contactPhone": "555-678-1234"
+      }
+    },
+    {
+      "id": "40",
+      "title": "Web Performance & SEO Engineer",
+      "type": "Contract",
+      "description": "Optimize Core Web Vitals, bundle sizes, and semantic markup for high-traffic publishing sites in New York, NY.",
+      "location": "New York, NY",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "Velocity Media Tech",
+        "description": "Velocity Media Tech builds high-speed content delivery platforms for digital newsrooms.",
+        "contactEmail": "jobs@velocitymediatech.com",
+        "contactPhone": "555-901-5678"
+      }
+    },
+    {
+      "id": "41",
+      "title": "Senior TypeScript & React Engineer",
+      "type": "Full-Time",
+      "description": "Build complex collaborative canvas tools in React and TypeScript in San Francisco, CA.",
+      "location": "San Francisco, CA",
+      "salary": "$130K - $150K",
+      "company": {
+        "name": "CanvasFlow Inc.",
+        "description": "CanvasFlow Inc. develops real-time visual whiteboarding and diagramming software for remote teams.",
+        "contactEmail": "talent@canvasflow.io",
+        "contactPhone": "555-111-2233"
+      }
+    },
+    {
+      "id": "42",
+      "title": "Backend Rust Developer",
+      "type": "Remote",
+      "description": "Write memory-safe, high-concurrency network services in Rust for our edge computing platform.",
+      "location": "Remote (US)",
+      "salary": "$130K - $150K",
+      "company": {
+        "name": "EdgeCore Infrastructure",
+        "description": "EdgeCore Infrastructure powers distributed serverless compute nodes across 50 global locations.",
+        "contactEmail": "rust-jobs@edgecore.dev",
+        "contactPhone": "555-222-3344"
+      }
+    },
+    {
+      "id": "43",
+      "title": "Front-End Developer (Design Systems)",
+      "type": "Full-Time",
+      "description": "Build and document accessible UI component libraries using React, Storybook, and CSS Modules in Seattle, WA.",
+      "location": "Seattle, WA",
+      "salary": "$105K - $120K",
+      "company": {
+        "name": "Pacific UI Systems",
+        "description": "Pacific UI Systems creates enterprise design systems and front-end tooling for fintech companies.",
+        "contactEmail": "careers@pacificui.com",
+        "contactPhone": "555-333-4455"
+      }
+    },
+    {
+      "id": "44",
+      "title": "IT Support & Network Technician",
+      "type": "Full-Time",
+      "description": "Provide Tier 2 technical support, configure firewalls, and manage office hardware in Austin, TX.",
+      "location": "Austin, TX",
+      "salary": "$58K - $68K",
+      "company": {
+        "name": "LoneStar Managed IT",
+        "description": "LoneStar Managed IT delivers reliable network administration and helpdesk services to Texas businesses.",
+        "contactEmail": "jobs@lonestarit.com",
+        "contactPhone": "555-444-5566"
+      }
+    },
+    {
+      "id": "45",
+      "title": "Full-Stack Python & React Developer",
+      "type": "Full-Time",
+      "description": "Build data-driven climate analytics dashboards using FastAPI, PostgreSQL, and React in Denver, CO.",
+      "location": "Denver, CO",
+      "salary": "$100K - $115K",
+      "company": {
+        "name": "TerraMetrics Corp",
+        "description": "TerraMetrics Corp helps agricultural companies optimize water usage through satellite data analytics.",
+        "contactEmail": "careers@terrametrics.io",
+        "contactPhone": "555-555-6677"
+      }
+    },
+    {
+      "id": "46",
+      "title": "E-Commerce Web Merchandiser & Front-End Dev",
+      "type": "Full-Time",
+      "description": "Manage product catalogs, build promotional landing pages in HTML/CSS/JS, and run A/B tests in Miami, FL.",
+      "location": "Miami, FL",
+      "salary": "$65K - $75K",
+      "company": {
+        "name": "Solstice Retail Group",
+        "description": "Solstice Retail Group operates fast-growing direct-to-consumer lifestyle and wellness brands.",
+        "contactEmail": "hr@solsticeretail.com",
+        "contactPhone": "555-666-7788"
+      }
+    },
+    {
+      "id": "47",
+      "title": "Senior Java & Kafka Engineer",
+      "type": "Full-Time",
+      "description": "Architect event-driven streaming pipelines using Java, Apache Kafka, and Spring Cloud in Charlotte, NC.",
+      "location": "Charlotte, NC",
+      "salary": "$125K - $140K",
+      "company": {
+        "name": "StreamBank Financial",
+        "description": "StreamBank Financial builds real-time fraud detection and payment processing engines.",
+        "contactEmail": "tech-recruiting@streambank.com",
+        "contactPhone": "555-777-8899"
+      }
+    },
+    {
+      "id": "48",
+      "title": "Angular & .NET Full-Stack Developer",
+      "type": "Full-Time",
+      "description": "Develop internal logistics portals using Angular 17, TypeScript, and ASP.NET Core in St. Louis, MO.",
+      "location": "St. Louis, MO",
+      "salary": "$88K - $102K",
+      "company": {
+        "name": "Gateway Freight Tech",
+        "description": "Gateway Freight Tech provides supply chain visibility software for rail and trucking operators.",
+        "contactEmail": "jobs@gatewayfreight.com",
+        "contactPhone": "555-888-9900"
+      }
+    },
+    {
+      "id": "49",
+      "title": "Junior Front-End Intern / Trainee",
+      "type": "Part-Time",
+      "description": "Paid internship for software development students skilled in HTML, CSS, JavaScript, and Git in Boston, MA.",
+      "location": "Boston, MA",
+      "salary": "$40K - $48K",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions.",
+        "contactEmail": "internships@teksolutions.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "50",
+      "title": "Cloud Security Engineer",
+      "type": "Remote",
+      "description": "Implement IAM policies, container scanning, and zero-trust network architecture across AWS and GCP environments.",
+      "location": "Remote (US)",
+      "salary": "$125K - $145K",
+      "company": {
+        "name": "FortressCloud Security",
+        "description": "FortressCloud Security automates cloud compliance and threat detection for SaaS startups.",
+        "contactEmail": "careers@fortresscloud.io",
+        "contactPhone": "555-999-0011"
+      }
+    },
+    {
+      "id": "51",
+      "title": "React & Redux Front-End Developer",
+      "type": "Full-Time",
+      "description": "Develop responsive customer-facing dashboards in React, TypeScript, and SASS in Atlanta, GA.",
+      "location": "Atlanta, GA",
+      "salary": "$90K - $105K",
+      "company": {
+        "name": "Peachtree Software Labs",
+        "description": "Peachtree Software Labs builds HR and payroll automation platforms for growing enterprises.",
+        "contactEmail": "jobs@peachtreelabs.com",
+        "contactPhone": "555-121-3434"
+      }
+    },
+    {
+      "id": "52",
+      "title": "Database & BI Developer (PowerBI / SQL)",
+      "type": "Full-Time",
+      "description": "Design Entity-Relationship models, ETL workflows, and executive dashboards in Minneapolis, MN.",
+      "location": "Minneapolis, MN",
+      "salary": "$82K - $95K",
+      "company": {
+        "name": "InsightMetric Group",
+        "description": "InsightMetric Group empowers healthcare providers with operational and financial analytics.",
+        "contactEmail": "talent@insightmetric.com",
+        "contactPhone": "555-232-4545"
+      }
+    },
+    {
+      "id": "53",
+      "title": "Elixir & Phoenix LiveView Developer",
+      "type": "Remote",
+      "description": "Build real-time, fault-tolerant web applications using Elixir, Phoenix LiveView, and Tailwind CSS.",
+      "location": "Remote (US)",
+      "salary": "$110K - $130K",
+      "company": {
+        "name": "BeamWorks Digital",
+        "description": "BeamWorks Digital crafts high-concurrency messaging and collaboration platforms.",
+        "contactEmail": "hiring@beamworks.dev",
+        "contactPhone": "555-343-5656"
+      }
+    },
+    {
+      "id": "54",
+      "title": "Embedded C++ Software Engineer",
+      "type": "Full-Time",
+      "description": "Write firmware and real-time control software in C++17 for smart medical devices in San Diego, CA.",
+      "location": "San Diego, CA",
+      "salary": "$115K - $135K",
+      "company": {
+        "name": "BioPulse Devices",
+        "description": "BioPulse Devices designs next-generation wearable diagnostic monitors.",
+        "contactEmail": "careers@biopulsedevices.com",
+        "contactPhone": "555-454-6767"
+      }
+    },
+    {
+      "id": "55",
+      "title": "Scrum Master & Agile Coach",
+      "type": "Full-Time",
+      "description": "Facilitate Agile ceremonies, remove blockers, and coach 3 full-stack web squads in Austin, TX.",
+      "location": "Austin, TX",
+      "salary": "$95K - $110K",
+      "company": {
+        "name": "AgileFlow Consulting",
+        "description": "AgileFlow Consulting helps software organizations scale engineering velocity with pragmatic Agile practices.",
+        "contactEmail": "jobs@agileflow.io",
+        "contactPhone": "555-565-7878"
+      }
+    },
+    {
+      "id": "56",
+      "title": "WebGL & Three.js Creative Developer",
+      "type": "Contract",
+      "description": "Create interactive 3D product configurators for the web using Three.js, WebGL, and React in Los Angeles, CA.",
+      "location": "Los Angeles, CA",
+      "salary": "$95K - $115K",
+      "company": {
+        "name": "DimensionXR Studio",
+        "description": "DimensionXR Studio builds immersive 3D web experiences for automotive and entertainment brands.",
+        "contactEmail": "projects@dimensionxr.com",
+        "contactPhone": "555-676-8989"
+      }
+    },
+    {
+      "id": "57",
+      "title": "PHP & Symfony Backend Developer",
+      "type": "Full-Time",
+      "description": "Maintain and modernize REST APIs built with PHP 8, Symfony, and Doctrine ORM in Philadelphia, PA.",
+      "location": "Philadelphia, PA",
+      "salary": "$85K - $98K",
+      "company": {
+        "name": "LibertyWeb Commerce",
+        "description": "LibertyWeb Commerce builds B2B wholesale ordering portals for regional distributors.",
+        "contactEmail": "hr@libertyweb.com",
+        "contactPhone": "555-787-9090"
+      }
+    },
+    {
+      "id": "58",
+      "title": "Product Manager - Developer Tools",
+      "type": "Full-Time",
+      "description": "Define product roadmap and prioritize API features for a cloud testing platform in San Francisco, CA.",
+      "location": "San Francisco, CA",
+      "salary": "$130K - $150K",
+      "company": {
+        "name": "TestGrid Cloud",
+        "description": "TestGrid Cloud enables engineering teams to run parallel browser tests across thousands of real devices.",
+        "contactEmail": "pm-jobs@testgrid.io",
+        "contactPhone": "555-898-0101"
+      }
+    },
+    {
+      "id": "59",
+      "title": "Front-End Engineer (HTML/CSS/Vanilla JS)",
+      "type": "Full-Time",
+      "description": "Build ultra-lightweight, framework-free widgets and embeddable scripts for SaaS clients in Portland, OR.",
+      "location": "Portland, OR",
+      "salary": "$80K - $92K",
+      "company": {
+        "name": "MicroWidget Labs",
+        "description": "MicroWidget Labs creates fast, customizable chat and feedback widgets for modern websites.",
+        "contactEmail": "dev@microwidget.io",
+        "contactPhone": "555-909-1212"
+      }
+    },
+    {
+      "id": "60",
+      "title": "Senior Node.js & PostgreSQL Engineer",
+      "type": "Full-Time",
+      "description": "Design high-throughput transactional APIs and optimize relational schemas in New York, NY.",
+      "location": "New York, NY",
+      "salary": "$120K - $138K",
+      "company": {
+        "name": "LedgerLine Fintech",
+        "description": "LedgerLine Fintech provides automated expense reconciliation and corporate card APIs.",
+        "contactEmail": "careers@ledgerline.com",
+        "contactPhone": "555-101-2020"
+      }
+    },
+    {
+      "id": "61",
+      "title": "Flutter Cross-Platform Developer",
+      "type": "Full-Time",
+      "description": "Develop smooth mobile and web applications from a single Dart/Flutter codebase in Miami, FL.",
+      "location": "Miami, FL",
+      "salary": "$90K - $105K",
+      "company": {
+        "name": "TropicApps Studio",
+        "description": "TropicApps Studio builds travel booking and hospitality companion apps for resorts.",
+        "contactEmail": "talent@tropicapps.com",
+        "contactPhone": "555-202-3030"
+      }
+    },
+    {
+      "id": "62",
+      "title": "Linux Systems Administrator",
+      "type": "Full-Time",
+      "description": "Administer Ubuntu/RHEL servers, automate tasks with Bash and Python, and manage Nginx reverse proxies in Ashburn, VA.",
+      "location": "Ashburn, VA",
+      "salary": "$85K - $98K",
+      "company": {
+        "name": "CoreHost Data Centers",
+        "description": "CoreHost Data Centers operates high-security bare-metal and private cloud hosting facilities.",
+        "contactEmail": "ops@corehostdc.com",
+        "contactPhone": "555-303-4040"
+      }
+    },
+    {
+      "id": "63",
+      "title": "React & GraphQL UI Developer",
+      "type": "Full-Time",
+      "description": "Build modern educational dashboards with React, Apollo Client, and Tailwind CSS in Boston, MA.",
+      "location": "Boston, MA",
+      "salary": "$92K - $108K",
+      "company": {
+        "name": "EduSphere Learning",
+        "description": "EduSphere Learning creates interactive virtual classrooms and assessment tools for universities.",
+        "contactEmail": "jobs@edusphere.edu",
+        "contactPhone": "555-404-5050"
+      }
+    },
+    {
+      "id": "64",
+      "title": "Data Analyst (SQL, Python, Excel)",
+      "type": "Full-Time",
+      "description": "Analyze customer churn, build automated spreadsheet reports, and query data warehouses in Chicago, IL.",
+      "location": "Chicago, IL",
+      "salary": "$72K - $85K",
+      "company": {
+        "name": "RetailPulse Analytics",
+        "description": "RetailPulse Analytics helps grocery chains optimize inventory and pricing strategies.",
+        "contactEmail": "careers@retailpulse.com",
+        "contactPhone": "555-505-6060"
+      }
+    },
+    {
+      "id": "65",
+      "title": "Penetration Tester / Ethical Hacker",
+      "type": "Contract",
+      "description": "Conduct web application and API penetration tests and deliver detailed remediation reports.",
+      "location": "Remote (US)",
+      "salary": "$110K - $130K",
+      "company": {
+        "name": "RedTeam Security Group",
+        "description": "RedTeam Security Group provides offensive security assessments for financial and healthcare clients.",
+        "contactEmail": "sec-jobs@redteamsec.io",
+        "contactPhone": "555-606-7070"
+      }
+    },
+    {
+      "id": "66",
+      "title": "Full-Stack Vue & Laravel Engineer",
+      "type": "Full-Time",
+      "description": "Build multi-tenant SaaS features using Laravel, Vue.js, Inertia.js, and MySQL in Austin, TX.",
+      "location": "Austin, TX",
+      "salary": "$92K - $106K",
+      "company": {
+        "name": "LaunchPad SaaS",
+        "description": "LaunchPad SaaS builds project management and time-tracking tools for creative agencies.",
+        "contactEmail": "team@launchpadsaas.com",
+        "contactPhone": "555-707-8080"
+      }
+    },
+    {
+      "id": "67",
+      "title": "Junior Backend Node.js Developer",
+      "type": "Full-Time",
+      "description": "Develop REST APIs, write unit tests, and work with MongoDB and Express in Phoenix, AZ.",
+      "location": "Phoenix, AZ",
+      "salary": "$65K - $75K",
+      "company": {
+        "name": "DesertCode Digital",
+        "description": "DesertCode Digital builds custom web portals and booking engines for regional service providers.",
+        "contactEmail": "jobs@desertcode.com",
+        "contactPhone": "555-808-9090"
+      }
+    },
+    {
+      "id": "68",
+      "title": "Senior Angular & RxJS Architect",
+      "type": "Full-Time",
+      "description": "Lead front-end modernization from legacy systems to Angular 18 with NgRx in Jersey City, NJ.",
+      "location": "Jersey City, NJ",
+      "salary": "$125K - $145K",
+      "company": {
+        "name": "HarborWealth Systems",
+        "description": "HarborWealth Systems builds portfolio management software for institutional wealth advisors.",
+        "contactEmail": "careers@harborwealth.com",
+        "contactPhone": "555-909-0101"
+      }
+    },
+    {
+      "id": "69",
+      "title": "DevSecOps Automation Engineer",
+      "type": "Full-Time",
+      "description": "Integrate SAST/DAST security checks into GitHub Actions CI/CD workflows in Seattle, WA.",
+      "location": "Seattle, WA",
+      "salary": "$120K - $138K",
+      "company": {
+        "name": "SecurePipe Technologies",
+        "description": "SecurePipe Technologies automates software supply chain security for enterprise engineering teams.",
+        "contactEmail": "hiring@securepipe.io",
+        "contactPhone": "555-135-2468"
+      }
+    },
+    {
+      "id": "70",
+      "title": "UI/UX Researcher & Wireframe Designer",
+      "type": "Part-Time",
+      "description": "Conduct user interviews, build interactive Figma prototypes, and validate UI flows in Denver, CO.",
+      "location": "Denver, CO",
+      "salary": "$65K - $78K",
+      "company": {
+        "name": "HumanFirst Design Lab",
+        "description": "HumanFirst Design Lab partners with startups to validate product usability before launch.",
+        "contactEmail": "ux@humanfirstlab.com",
+        "contactPhone": "555-246-3579"
+      }
+    },
+    {
+      "id": "71",
+      "title": "Full-Stack JavaScript Developer (React/Node)",
+      "type": "Full-Time",
+      "description": "Work across the full stack building real-time dispatch dashboards in React and Node.js in Nashville, TN.",
+      "location": "Nashville, TN",
+      "salary": "$90K - $105K",
+      "company": {
+        "name": "FleetPulse Logistics",
+        "description": "FleetPulse Logistics provides GPS tracking and route optimization software.",
+        "contactEmail": "jobs@fleetpulse.com",
+        "contactPhone": "555-357-4680"
+      }
+    },
+    {
+      "id": "72",
+      "title": "Salesforce Administrator & Business Analyst",
+      "type": "Full-Time",
+      "description": "Configure Salesforce flows, custom objects, and reporting dashboards in Atlanta, GA.",
+      "location": "Atlanta, GA",
+      "salary": "$78K - $90K",
+      "company": {
+        "name": "SouthernCross Solutions",
+        "description": "SouthernCross Solutions helps B2B sales organizations streamline CRM operations.",
+        "contactEmail": "hr@southerncross.com",
+        "contactPhone": "555-468-5791"
+      }
+    },
+    {
+      "id": "73",
+      "title": "Senior Python FastAPI Developer",
+      "type": "Remote",
+      "description": "Build asynchronous REST APIs and background workers using Python, FastAPI, Celery, and Redis.",
+      "location": "Remote (US)",
+      "salary": "$115K - $132K",
+      "company": {
+        "name": "AsyncScale Tech",
+        "description": "AsyncScale Tech builds high-volume webhook processing and API gateway services.",
+        "contactEmail": "careers@asyncscale.io",
+        "contactPhone": "555-579-6802"
+      }
+    },
+    {
+      "id": "74",
+      "title": "Web Content & HTML Email Developer",
+      "type": "Full-Time",
+      "description": "Code responsive HTML email templates and manage CMS landing pages in Orlando, FL.",
+      "location": "Orlando, FL",
+      "salary": "$55K - $65K",
+      "company": {
+        "name": "ResortConnect Marketing",
+        "description": "ResortConnect Marketing runs digital loyalty programs for vacation resorts.",
+        "contactEmail": "jobs@resortconnect.com",
+        "contactPhone": "555-680-7913"
+      }
+    },
+    {
+      "id": "75",
+      "title": "Kubernetes Platform Engineer",
+      "type": "Full-Time",
+      "description": "Manage multi-region EKS clusters, Helm charts, and service mesh networking in San Jose, CA.",
+      "location": "San Jose, CA",
+      "salary": "$135K - $155K",
+      "company": {
+        "name": "KubeNative Systems",
+        "description": "KubeNative Systems builds internal developer platforms for cloud-native enterprises.",
+        "contactEmail": "platform-jobs@kubenative.io",
+        "contactPhone": "555-791-8024"
+      }
+    },
+    {
+      "id": "76",
+      "title": "Junior SQL & Reporting Specialist",
+      "type": "Full-Time",
+      "description": "Write SQL queries, maintain relational tables, and generate weekly KPI reports in Columbus, OH.",
+      "location": "Columbus, OH",
+      "salary": "$58K - $68K",
+      "company": {
+        "name": "Buckeye Data Services",
+        "description": "Buckeye Data Services provides back-office analytics for regional retail chains.",
+        "contactEmail": "talent@buckeyedata.com",
+        "contactPhone": "555-802-9135"
+      }
+    },
+    {
+      "id": "77",
+      "title": "React & Next.js Senior Engineer",
+      "type": "Full-Time",
+      "description": "Lead front-end development of a next-generation real estate marketplace using Next.js App Router and TypeScript in New York, NY.",
+      "location": "New York, NY",
+      "salary": "$125K - $145K",
+      "company": {
+        "name": "UrbanNest PropTech",
+        "description": "UrbanNest PropTech simplifies apartment rentals and virtual property tours.",
+        "contactEmail": "engineering@urbannest.com",
+        "contactPhone": "555-913-0246"
+      }
+    },
+    {
+      "id": "78",
+      "title": "C# Unity Simulation Developer",
+      "type": "Full-Time",
+      "description": "Develop interactive 3D training simulations in Unity and C# for industrial safety in Houston, TX.",
+      "location": "Houston, TX",
+      "salary": "$95K - $110K",
+      "company": {
+        "name": "SimuTech Industrial",
+        "description": "SimuTech Industrial creates VR and desktop training simulators for energy workers.",
+        "contactEmail": "jobs@simutech.com",
+        "contactPhone": "555-147-2589"
+      }
+    },
+    {
+      "id": "79",
+      "title": "Front-End Developer (Tailwind & Alpine.js)",
+      "type": "Contract",
+      "description": "Build snappy, server-rendered interfaces using Tailwind CSS and Alpine.js for a publishing platform in Chicago, IL.",
+      "location": "Chicago, IL",
+      "salary": "$75K - $88K",
+      "company": {
+        "name": "WindyCity Press Digital",
+        "description": "WindyCity Press Digital operates subscription newsletters and digital magazines.",
+        "contactEmail": "contracts@windycitypress.com",
+        "contactPhone": "555-258-3690"
+      }
+    },
+    {
+      "id": "80",
+      "title": "Senior Backend .NET Architect",
+      "type": "Full-Time",
+      "description": "Design distributed microservices in .NET 8, Azure Service Bus, and CosmosDB in Redmond, WA.",
+      "location": "Redmond, WA",
+      "salary": "$135K - $155K",
+      "company": {
+        "name": "AzurePeak Consulting",
+        "description": "AzurePeak Consulting builds cloud-native enterprise applications on Microsoft Azure.",
+        "contactEmail": "careers@azurepeak.com",
+        "contactPhone": "555-369-4701"
+      }
+    },
+    {
+      "id": "81",
+      "title": "QA Engineer (Playwright & TypeScript)",
+      "type": "Remote",
+      "description": "Build reliable end-to-end browser automation suites in Playwright and TypeScript for a SaaS CRM.",
+      "location": "Remote (US)",
+      "salary": "$88K - $102K",
+      "company": {
+        "name": "GreenLight QA Labs",
+        "description": "GreenLight QA Labs provides embedded test automation engineers for agile product teams.",
+        "contactEmail": "jobs@greenlightqa.io",
+        "contactPhone": "555-470-5812"
+      }
+    },
+    {
+      "id": "82",
+      "title": "Full-Stack Developer (React & Ruby)",
+      "type": "Full-Time",
+      "description": "Build patient scheduling features using React on the front end and Ruby on Rails on the back end in Boston, MA.",
+      "location": "Boston, MA",
+      "salary": "$100K - $115K",
+      "company": {
+        "name": "CarePoint Digital",
+        "description": "CarePoint Digital streamlines clinic appointments and telehealth workflows.",
+        "contactEmail": "talent@carepointdigital.com",
+        "contactPhone": "555-581-6923"
+      }
+    },
+    {
+      "id": "83",
+      "title": "ERP Implementation Specialist",
+      "type": "Full-Time",
+      "description": "Configure ERP modules, migrate SQL databases, and train end users in Dallas, TX.",
+      "location": "Dallas, TX",
+      "salary": "$80K - $95K",
+      "company": {
+        "name": "OmniResource Systems",
+        "description": "OmniResource Systems deploys cloud ERP software for mid-sized manufacturers.",
+        "contactEmail": "hr@omniresource.com",
+        "contactPhone": "555-692-7034"
+      }
+    },
+    {
+      "id": "84",
+      "title": "Front-End Developer (Vue 3 & Pinia)",
+      "type": "Full-Time",
+      "description": "Develop modular single-page applications using Vue 3, Composition API, and Pinia in Raleigh, NC.",
+      "location": "Raleigh, NC",
+      "salary": "$88K - $100K",
+      "company": {
+        "name": "Triangle Web Innovations",
+        "description": "Triangle Web Innovations builds biotech data portals and laboratory management apps.",
+        "contactEmail": "jobs@triangleweb.io",
+        "contactPhone": "555-703-8145"
+      }
+    },
+    {
+      "id": "85",
+      "title": "Network Security Engineer",
+      "type": "Full-Time",
+      "description": "Configure VPNs, IDS/IPS appliances, and zero-trust access controls in Washington, DC.",
+      "location": "Washington, DC",
+      "salary": "$110K - $128K",
+      "company": {
+        "name": "CapitalShield Cyber",
+        "description": "CapitalShield Cyber secures critical infrastructure and enterprise networks.",
+        "contactEmail": "careers@capitalshield.com",
+        "contactPhone": "555-814-9256"
+      }
+    },
+    {
+      "id": "86",
+      "title": "Junior Full-Stack Developer",
+      "type": "Full-Time",
+      "description": "Collaborate with senior engineers to build web features using HTML, CSS, JavaScript, and Node.js in Salt Lake City, UT.",
+      "location": "Salt Lake City, UT",
+      "salary": "$62K - $72K",
+      "company": {
+        "name": "Wasatch Code Works",
+        "description": "Wasatch Code Works mentors early-career developers while building custom business apps.",
+        "contactEmail": "hiring@wasatchcode.com",
+        "contactPhone": "555-925-0367"
+      }
+    },
+    {
+      "id": "87",
+      "title": "Data Engineer (Snowflake & dbt)",
+      "type": "Remote",
+      "description": "Model analytical data warehouses using Snowflake, dbt, and SQL for an e-commerce analytics platform.",
+      "location": "Remote (US)",
+      "salary": "$115K - $130K",
+      "company": {
+        "name": "SnowPeak Data",
+        "description": "SnowPeak Data helps online retailers unify marketing and sales attribution data.",
+        "contactEmail": "jobs@snowpeakdata.io",
+        "contactPhone": "555-159-2637"
+      }
+    },
+    {
+      "id": "88",
+      "title": "Senior React Native & Expo Developer",
+      "type": "Full-Time",
+      "description": "Lead mobile app development using React Native, Expo, and TypeScript in Los Angeles, CA.",
+      "location": "Los Angeles, CA",
+      "salary": "$115K - $135K",
+      "company": {
+        "name": "SunSet Social Apps",
+        "description": "SunSet Social Apps creates community event and ticketing mobile applications.",
+        "contactEmail": "mobile-jobs@sunsetsocial.com",
+        "contactPhone": "555-263-3748"
+      }
+    },
+    {
+      "id": "89",
+      "title": "Technical Project Manager",
+      "type": "Full-Time",
+      "description": "Manage software delivery timelines, client communications, and sprint backlogs in New York, NY.",
+      "location": "New York, NY",
+      "salary": "$105K - $120K",
+      "company": {
+        "name": "MetroDigital Agency",
+        "description": "MetroDigital Agency delivers enterprise web platforms and mobile apps for media brands.",
+        "contactEmail": "pm@metrodigital.com",
+        "contactPhone": "555-374-4859"
+      }
+    },
+    {
+      "id": "90",
+      "title": "Backend Go & PostgreSQL Developer",
+      "type": "Full-Time",
+      "description": "Build resilient payment webhook services in Go and PostgreSQL in San Francisco, CA.",
+      "location": "San Francisco, CA",
+      "salary": "$125K - $142K",
+      "company": {
+        "name": "PayStream Core",
+        "description": "PayStream Core provides instant payout APIs for gig-economy marketplaces.",
+        "contactEmail": "jobs@paystreamcore.com",
+        "contactPhone": "555-485-5960"
+      }
+    },
+    {
+      "id": "91",
+      "title": "Front-End Developer (React & CSS Grid)",
+      "type": "Full-Time",
+      "description": "Craft responsive catalog layouts, product detail pages, and interactive filters using React and modern CSS in Miami, FL.",
+      "location": "Miami, FL",
+      "salary": "$80K - $92K",
+      "company": {
+        "name": "Brickell Commerce Tech",
+        "description": "Brickell Commerce Tech builds custom B2B product catalogs and ordering portals.",
+        "contactEmail": "careers@brickelltech.com",
+        "contactPhone": "555-596-6071"
+      }
+    },
+    {
+      "id": "92",
+      "title": "Cloud Cost & FinOps Analyst",
+      "type": "Full-Time",
+      "description": "Analyze AWS/Azure cloud spend, optimize reserved instances, and build cost dashboards in Seattle, WA.",
+      "location": "Seattle, WA",
+      "salary": "$95K - $110K",
+      "company": {
+        "name": "CloudSaver Advisors",
+        "description": "CloudSaver Advisors helps SaaS companies reduce cloud infrastructure bills by up to 35%.",
+        "contactEmail": "jobs@cloudsaver.io",
+        "contactPhone": "555-607-7182"
+      }
+    },
+    {
+      "id": "93",
+      "title": "Full-Stack TypeScript Engineer (Remix / Prisma)",
+      "type": "Remote",
+      "description": "Build type-safe full-stack web apps using Remix, Prisma ORM, and PostgreSQL.",
+      "location": "Remote (US)",
+      "salary": "$105K - $122K",
+      "company": {
+        "name": "TypeSafe Studio",
+        "description": "TypeSafe Studio builds modern web applications with end-to-end TypeScript reliability.",
+        "contactEmail": "hiring@typesafestudio.dev",
+        "contactPhone": "555-718-8293"
+      }
+    },
+    {
+      "id": "94",
+      "title": "Junior Web Accessibility Tester",
+      "type": "Part-Time",
+      "description": "Test websites using screen readers (NVDA, VoiceOver) and keyboard navigation to verify WCAG compliance in Boston, MA.",
+      "location": "Boston, MA",
+      "salary": "$48K - $56K",
+      "company": {
+        "name": "AccessFirst Digital",
+        "description": "AccessFirst Digital provides accessibility auditing and training for web development teams.",
+        "contactEmail": "jobs@accessfirst.org",
+        "contactPhone": "555-829-9304"
+      }
+    },
+    {
+      "id": "95",
+      "title": "Senior Java & Spring Security Developer",
+      "type": "Full-Time",
+      "description": "Implement OAuth2, OpenID Connect, and enterprise SSO integrations in Java Spring Boot in Chicago, IL.",
+      "location": "Chicago, IL",
+      "salary": "$120K - $135K",
+      "company": {
+        "name": "IdentityGuard Corp",
+        "description": "IdentityGuard Corp provides customer identity and access management (CIAM) solutions.",
+        "contactEmail": "careers@identityguard.com",
+        "contactPhone": "555-930-0415"
+      }
+    },
+    {
+      "id": "96",
+      "title": "WordPress Speed & Security Specialist",
+      "type": "Contract",
+      "description": "Harden WordPress installations, configure caching layers, and clean up legacy themes in Austin, TX.",
+      "location": "Austin, TX",
+      "salary": "$70K - $82K",
+      "company": {
+        "name": "WPShield Support",
+        "description": "WPShield Support provides 24/7 maintenance and security monitoring for enterprise WordPress sites.",
+        "contactEmail": "tech@wpshield.io",
+        "contactPhone": "555-162-2738"
+      }
+    },
+    {
+      "id": "97",
+      "title": "AI Integration & LLM Engineer",
+      "type": "Full-Time",
+      "description": "Integrate LLM APIs, RAG pipelines, and semantic search into existing SaaS workflows using Python and TypeScript in San Francisco, CA.",
+      "location": "San Francisco, CA",
+      "salary": "$135K - $155K",
+      "company": {
+        "name": "CortexFlow AI",
+        "description": "CortexFlow AI builds intelligent document processing and customer support assistants.",
+        "contactEmail": "ai-jobs@cortexflow.ai",
+        "contactPhone": "555-273-3849"
+      }
+    },
+    {
+      "id": "98",
+      "title": "Front-End Developer (React & Jest)",
+      "type": "Full-Time",
+      "description": "Build well-tested React components with 85%+ unit test coverage using Jest and React Testing Library in Denver, CO.",
+      "location": "Denver, CO",
+      "salary": "$92K - $105K",
+      "company": {
+        "name": "SolidCode Software",
+        "description": "SolidCode Software builds mission-critical scheduling software for aviation and transit.",
+        "contactEmail": "jobs@solidcodesoft.com",
+        "contactPhone": "555-384-4950"
+      }
+    },
+    {
+      "id": "99",
+      "title": "Database Reliability Engineer (MySQL)",
+      "type": "Full-Time",
+      "description": "Manage sharded MySQL clusters, automate failover drills, and tune slow queries in Atlanta, GA.",
+      "location": "Atlanta, GA",
+      "salary": "$115K - $130K",
+      "company": {
+        "name": "ScaleDB Systems",
+        "description": "ScaleDB Systems provides database architecture consulting for high-growth e-commerce platforms.",
+        "contactEmail": "careers@scaledbsys.com",
+        "contactPhone": "555-495-5061"
+      }
+    },
+    {
+      "id": "100",
+      "title": "Full-Stack Web Developer (HTML/CSS/JS/Node)",
+      "type": "Full-Time",
+      "description": "Join our core web engineering team in Boston, MA to build responsive client portals, REST APIs, and modern front-end interfaces.",
+      "location": "Boston, MA",
+      "salary": "$85K - $98K",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
         "contactPhone": "555-555-5555"
       }
     }

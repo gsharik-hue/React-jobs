@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const AddJobPage = () => {
@@ -6,7 +6,7 @@ const AddJobPage = () => {
   const [type, setType] = useState('Full-Time');
   const [location, setLocation] = useState('');
   const [description, setDescription] = useState('');
-  const [salary, setSalary] = useState('Under $50K');
+  const [salary, setSalary] = useState('');
   const [companyName, setCompanyName] = useState('');
   const [companyDescription, setCompanyDescription] = useState('');
   const [contactEmail, setContactEmail] = useState('');
@@ -31,9 +31,27 @@ const AddJobPage = () => {
       },
     };
 
-    console.log('Nuevo trabajo a agregar:', newJob);
-    // Redirigir a la lista de trabajos
-    navigate('/jobs');
+    addJobSubmit(newJob);
+  };
+
+  const addJobSubmit = async (newJob) => {
+    try {
+      const res = await fetch('/api/jobs', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newJob),
+      });
+
+      if (res.ok) {
+        navigate('/jobs');
+      } else {
+        alert('Error al crear el empleo');
+      }
+    } catch (error) {
+      console.log('Error saving data', error);
+    }
   };
 
   return (
@@ -44,7 +62,7 @@ const AddJobPage = () => {
             <h2 className="text-3xl text-center font-semibold mb-6">Add Job</h2>
 
             <div className="mb-4">
-              <label htmlFor="type" className="block text-gray-700 font-bold mb-2">
+              <label className="block text-gray-700 font-bold mb-2">
                 Job Type
               </label>
               <select
@@ -79,7 +97,7 @@ const AddJobPage = () => {
             </div>
 
             <div className="mb-4">
-              <label htmlFor="description" className="block text-gray-700 font-bold mb-2">
+              <label className="block text-gray-700 font-bold mb-2">
                 Description
               </label>
               <textarea
@@ -94,7 +112,7 @@ const AddJobPage = () => {
             </div>
 
             <div className="mb-4">
-              <label htmlFor="type" className="block text-gray-700 font-bold mb-2">
+              <label className="block text-gray-700 font-bold mb-2">
                 Salary
               </label>
               <select
@@ -106,16 +124,14 @@ const AddJobPage = () => {
                 onChange={(e) => setSalary(e.target.value)}
               >
                 <option value="Under $50K">Under $50K</option>
-                <option value="$50K - $60K">$50K - $60K</option>
-                <option value="$60K - $70K">$60K - $70K</option>
-                <option value="$70K - $80K">$70K - $80K</option>
-                <option value="$80K - $90K">$80K - $90K</option>
-                <option value="$90K - $100K">$90K - $100K</option>
-                <option value="$100K - $125K">$100K - $125K</option>
-                <option value="$125K - $150K">$125K - $150K</option>
-                <option value="$150K - $175K">$150K - $175K</option>
-                <option value="$175K - $200K">$175K - $200K</option>
-                <option value="Over $200K">Over $200K</option>
+                <option value="$50K - 60K">$50K - $60K</option>
+                <option value="$60K - 70K">$60K - $70K</option>
+                <option value="$70K - 80K">$70K - $80K</option>
+                <option value="$80K - 90K">$80K - $90K</option>
+                <option value="$90K - 100K">$90K - $100K</option>
+                <option value="$100K - 125K">$100K - $125K</option>
+                <option value="$125K - 150K">$125K - $150K</option>
+                <option value="$150K Tendulkar">$150K+</option>
               </select>
             </div>
 
@@ -138,7 +154,7 @@ const AddJobPage = () => {
             <h3 className="text-2xl mb-5">Company Info</h3>
 
             <div className="mb-4">
-              <label htmlFor="company" className="block text-gray-700 font-bold mb-2">
+              <label className="block text-gray-700 font-bold mb-2">
                 Company Name
               </label>
               <input
@@ -153,7 +169,7 @@ const AddJobPage = () => {
             </div>
 
             <div className="mb-4">
-              <label htmlFor="company_description" className="block text-gray-700 font-bold mb-2">
+              <label className="block text-gray-700 font-bold mb-2">
                 Company Description
               </label>
               <textarea
@@ -168,7 +184,7 @@ const AddJobPage = () => {
             </div>
 
             <div className="mb-4">
-              <label htmlFor="contact_email" className="block text-gray-700 font-bold mb-2">
+              <label className="block text-gray-700 font-bold mb-2">
                 Contact Email
               </label>
               <input
@@ -184,7 +200,7 @@ const AddJobPage = () => {
             </div>
 
             <div className="mb-4">
-              <label htmlFor="contact_phone" className="block text-gray-700 font-bold mb-2">
+              <label className="block text-gray-700 font-bold mb-2">
                 Contact Phone
               </label>
               <input

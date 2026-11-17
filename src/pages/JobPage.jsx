@@ -1,10 +1,55 @@
-import React from 'react';
-import { useParams, Link } from 'react-router-dom';
-import jobsData from '../jobs.json';
+import { useState, useEffect } from 'react';
+import { useParams, Link, useNavigate } from 'react-router-dom';
+import { ClipLoader } from 'react-spinners';
 
 const JobPage = () => {
   const { id } = useParams();
-  const job = jobsData.jobs.find((j) => j.id.toString() === id);
+  const navigate = useNavigate();
+  const [job, setJob] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchJob = async () => {
+      try {
+        const res = await fetch(`/api/jobs/${id}`);
+        const data = await res.json();
+        setJob(data);
+      } catch (error) {
+        console.log('Error fetching data', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchJob();
+  }, [id]);
+
+  const handleDelete = (jobId) => {
+    const confirm = window.confirm(
+      '¿Estás seguro de que quieres eliminar esta vacante?'
+    );
+    if (!confirm) return;
+
+    fetch(`/api/jobs/${jobId}`, {
+      method: 'DELETE',
+    })
+      .then((res) => {
+        if (res.ok) {
+          navigate('/jobs');
+        } else {
+          alert('Error al intentar eliminar el empleo.');
+        }
+      })
+      .catch((error) => console.log('Error:', error));
+  };
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center py-20">
+        <ClipLoader color="#4f46e5" loading={loading} size={150} />
+      </div>
+    );
+  }
 
   if (!job) {
     return (
@@ -65,6 +110,22 @@ const JobPage = () => {
                 <p className="my-2 bg-indigo-100 p-2 font-bold">
                   {job.company?.contactPhone}
                 </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg shadow-md mt-6">
+                <h3 className="text-xl font-bold mb-6">Manage Job</h3>
+                <Link
+                  to={`/edit-job/${job.id}`}
+                  className="bg-indigo-500 hover:bg-indigo-600 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline block mb-4"
+                >
+                  Edit Job
+                </Link>
+                <button
+                  onClick={() => handleDelete(job.id)}
+                  className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline block"
+                >
+                  Delete Job
+                </button>
               </div>
             </aside>
           </div>
