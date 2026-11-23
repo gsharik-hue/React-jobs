@@ -939,20 +939,6 @@
       }
     },
     {
-      "id": "68",
-      "title": "Senior Angular & RxJS Architect",
-      "type": "Full-Time",
-      "description": "Lead front-end modernization from legacy systems to Angular 18 with NgRx in Jersey City, NJ.",
-      "location": "Jersey City, NJ",
-      "salary": "$125K - $145K",
-      "company": {
-        "name": "HarborWealth Systems",
-        "description": "HarborWealth Systems builds portfolio management software for institutional wealth advisors.",
-        "contactEmail": "careers@harborwealth.com",
-        "contactPhone": "555-909-0101"
-      }
-    },
-    {
       "id": "69",
       "title": "DevSecOps Automation Engineer",
       "type": "Full-Time",
@@ -1399,6 +1385,21 @@
         "contactEmail": "contact@teksolutions.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "title": "dormir",
+      "type": "Remote",
+      "location": "Miami, FL",
+      "description": "Dormir placidamente",
+      "salary": "Under $50K",
+      "company": {
+        "name": "sleeping company",
+        "description": "this is  a company to sleep",
+        "contactEmail": "sharikdahianagonzalezbedoya@gmail.com",
+        "contactPhone": "3187370628"
+      },
+      "id": "6itHPejTdTQ"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

@@ -1,28 +1,10 @@
-import { useState, useEffect } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ClipLoader } from 'react-spinners';
+import { useLoaderData, Link, useNavigate } from 'react-router-dom';
+import { FaArrowLeft, FaMapMarker } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 
-const JobPage = () => {
-  const { id } = useParams();
+const JobPage = ({ deleteJob }) => {
+  const job = useLoaderData();
   const navigate = useNavigate();
-  const [job, setJob] = useState(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchJob = async () => {
-      try {
-        const res = await fetch(`/api/jobs/${id}`);
-        const data = await res.json();
-        setJob(data);
-      } catch (error) {
-        console.log('Error fetching data', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchJob();
-  }, [id]);
 
   const handleDelete = (jobId) => {
     const confirm = window.confirm(
@@ -30,34 +12,10 @@ const JobPage = () => {
     );
     if (!confirm) return;
 
-    fetch(`/api/jobs/${jobId}`, {
-      method: 'DELETE',
-    })
-      .then((res) => {
-        if (res.ok) {
-          navigate('/jobs');
-        } else {
-          alert('Error al intentar eliminar el empleo.');
-        }
-      })
-      .catch((error) => console.log('Error:', error));
+    deleteJob(jobId);
+    toast.success('Job eliminado correctamente');
+    navigate('/jobs');
   };
-
-  if (loading) {
-    return (
-      <div className="flex justify-center items-center py-20">
-        <ClipLoader color="#4f46e5" loading={loading} size={150} />
-      </div>
-    );
-  }
-
-  if (!job) {
-    return (
-      <div className="text-center py-10 text-2xl font-bold">
-        Job Not Found
-      </div>
-    );
-  }
 
   return (
     <>
@@ -67,7 +25,7 @@ const JobPage = () => {
             to="/jobs"
             className="text-indigo-500 hover:text-indigo-600 flex items-center"
           >
-            ← Back to Job Listings
+            <FaArrowLeft className="mr-2" /> Back to Job Listings
           </Link>
         </div>
       </section>
@@ -79,8 +37,9 @@ const JobPage = () => {
               <div className="bg-white p-6 rounded-lg shadow-md text-center md:text-left">
                 <div className="text-gray-500 mb-4">{job.type}</div>
                 <h1 className="text-3xl font-bold mb-4">{job.title}</h1>
-                <div className="text-orange-700 mb-4 flex justify-center md:justify-start items-center">
-                  <span>{job.location}</span>
+                <div className="text-gray-500 mb-4 flex align-middle justify-center md:justify-start">
+                  <FaMapMarker className="text-orange-700 mr-1 mt-1" />
+                  <p className="text-orange-700">{job.location}</p>
                 </div>
               </div>
 
@@ -135,4 +94,10 @@ const JobPage = () => {
   );
 };
 
-export default JobPage;
+const jobLoader = async ({ params }) => {
+  const res = await fetch(`/api/jobs/${params.id}`);
+  const data = await res.json();
+  return data;
+};
+
+export { JobPage as default, jobLoader };

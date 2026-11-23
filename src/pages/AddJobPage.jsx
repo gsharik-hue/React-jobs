@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
-const AddJobPage = () => {
+const AddJobPage = ({ addJobSubmit }) => {
   const [title, setTitle] = useState('');
   const [type, setType] = useState('Full-Time');
   const [location, setLocation] = useState('');
   const [description, setDescription] = useState('');
-  const [salary, setSalary] = useState('');
+  const [salary, setSalary] = useState('Under $50K');
   const [companyName, setCompanyName] = useState('');
   const [companyDescription, setCompanyDescription] = useState('');
   const [contactEmail, setContactEmail] = useState('');
@@ -32,26 +33,8 @@ const AddJobPage = () => {
     };
 
     addJobSubmit(newJob);
-  };
-
-  const addJobSubmit = async (newJob) => {
-    try {
-      const res = await fetch('/api/jobs', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(newJob),
-      });
-
-      if (res.ok) {
-        navigate('/jobs');
-      } else {
-        alert('Error al crear el empleo');
-      }
-    } catch (error) {
-      console.log('Error saving data', error);
-    }
+    toast.success('Job añadido correctamente');
+    navigate('/jobs');
   };
 
   return (
@@ -131,7 +114,7 @@ const AddJobPage = () => {
                 <option value="$90K - 100K">$90K - $100K</option>
                 <option value="$100K - 125K">$100K - $125K</option>
                 <option value="$125K - 150K">$125K - $150K</option>
-                <option value="$150K Tendulkar">$150K+</option>
+                <option value="$150K+">$150K+</option>
               </select>
             </div>
 
